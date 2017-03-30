@@ -1,0 +1,70 @@
+@font-face {
+   font-family: MademoiselleCamille;
+   src: url('Mademoiselle Camille.ttf');
+}
+@font-face {
+   font-family: CopperplateGothicLight;
+   src: url('Copperplate gothic light.ttf');
+}
+@font-face {
+   font-family: Vivaldi;
+   src: url('Vivaldi.ttf');
+}
+@media (max-width: 767px) {
+   .mt-1 {
+      margin-top: 10px;
+   }
+}
+* {
+   font-family: CopperplateGothicLight;
+   font-size: 16px;
+}
+h2 {
+   font-size: 35px;
+}
+.title {
+   font-family: MademoiselleCamille;
+   font-size: 180px;
+   line-height: 90px;
+   padding: 60px 0 30px;
+   margin: 0;
+}
+.subtitle {
+   font-size: 22px;
+   margin: 0 0 30px;
+}
+header {
+   padding-bottom: 30px;
+}
+footer {
+   font-family: MademoiselleCamille;
+   font-size: 180px;
+   line-height: 90px;
+   padding: 60px 0 50px 0;
+   margin: 40px 0 0;
+}
+.separator {
+   height: 30px;
+   margin: 20px 0;
+}
+.theme-yellow {
+   background: #FFF8C0;
+}
+.theme-green {
+   background: #EBFCBE;
+}
+.theme-pink {
+   background: #F2B6DE;
+}
+.theme-purple {
+   background: #CCB9EE;
+}
+.theme-blue {
+   background: #CEDFF5;
+}
+.theme-orange {
+   background: #FFE7C0;
+}
+.theme-turquoise {
+   background: #B0E9E9;
+}
