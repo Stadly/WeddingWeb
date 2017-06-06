@@ -11,9 +11,15 @@
    src: url('Vivaldi.ttf');
 }
 @media (max-width: 767px) {
-   .mt-1 {
+   .mt-xs-1 {
       margin-top: 10px;
    }
+   .fw-xs-bold {
+      font-weight: bold;
+   }
+}
+.mt-1 {
+   margin-top: 10px;
 }
 * {
    font-family: CopperplateGothicLight;
@@ -21,6 +27,28 @@
 }
 h2 {
    font-size: 35px;
+}
+.notifications {
+   position: fixed;
+   top: 0;
+   z-index: 1;
+   width: 100%;
+   background: rgba(176, 233, 233, 0.9);
+}
+.notifications-item {
+   padding: 10px 0;
+}
+.notifications-item:not(:last-child) {
+   border-bottom: 1px solid #333;
+}
+.notifications-name {
+   font-weight: bold;
+}
+.notifications-cancel {
+   padding-left: 10px;
+}
+.notifications-close {
+   padding-left: 10px;
 }
 .title {
    font-family: MademoiselleCamille;
@@ -42,6 +70,21 @@ footer {
    line-height: 90px;
    padding: 60px 0 50px 0;
    margin: 40px 0 0;
+}
+.link {
+  color: #337ab7;
+  text-decoration: none;
+  cursor: pointer;
+}
+.link:hover,
+.link:focus {
+  color: #23527c;
+  text-decoration: underline;
+}
+summary {
+   cursor: pointer;
+   display: inline;
+   outline: 0;
 }
 .separator {
    height: 30px;
